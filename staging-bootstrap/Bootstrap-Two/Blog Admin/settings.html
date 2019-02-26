@@ -73,7 +73,7 @@
           <div class="row">
             <div class="col-md-6">
                 <h1>
-                    <i class="fas fa-user"></i> Edit Profile
+                    <i class="fas fa-cog"></i> Settings
                 </h1>
             </div>
           </div>
@@ -91,70 +91,65 @@
                     </a>
                 </div>
 
+
                 <div class="col-md-3">
                         <a href="index.html" class="btn btn-success btn-block" data-toggle="modal" data-target="#addCategoryModal">
-                            <i class="fas fa-lock"></i> Change Password
+                            <i class="fas fa-check"></i> Save Changes
                         </a>
-                    </div>
-
-                    <div class="col-md-3">
-                            <a href="index.html" class="btn btn-danger btn-block" data-toggle="modal" data-target="#addUserModal">
-                                <i class="fas fa-trash"></i> Delete Account
-                            </a>
                     </div>
             </div>
         </div>
     </section>
 
+    <!-- Settings -->
+    <section id="settings">
+        <div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Edit Settings</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <fieldset class="form-group">
+                            <legend>Allow User Registration</legend>
+                            <div class="form-check">
+                                <label for="" class="form-check label"></label>
+                                <input type="radio" class="form-check-input" value="Yes" checked>Yes
+                            </div>
 
-    <!-- Edit Profile -->
-        <section id="editProfile">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Edit Profile</h4>
+                            <div class="form-check">
+                                <label for="" class="form-check label"></label>
+                                <input type="radio" class="form-check-input" value="Yes">No
                             </div>
-                            <div class="card-body">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="name">Name</label>
-                                        <input type="text" class="form-control" value="Jane Doe">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="text" class="form-control" value="jane@doe.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="bio">Bio</label>
-                                        <textarea name="editor1" class="form-control">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt sapiente assumenda debitis asperiores blanditiis est, sunt suscipit. Repellendus repellat nulla sunt modi exercitationem, dignissimos reiciendis ullam unde animi, voluptate ducimus ad soluta ratione cupiditate. Aperiam vel consequatur qui perferendis quidem accusamus inventore sit nam ullam officiis, saepe illum molestiae?
-                                        </textarea>
-                                    </div>     
-                                </form>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                            <legend>Home Page Format</legend>
+                            <div class="form-check">
+                                <label for="" class="form-check label"></label>
+                                <input type="radio" class="form-check-input" value="Posts" checked>Blog Page
                             </div>
+
+                            <div class="form-check">
+                                <label for="" class="form-check label"></label>
+                                <input type="radio" class="form-check-input" value="Page">Home Page
+                            </div>
+                        </fieldset>
+                    </form>
+
 
                         </div>
                     </div>
-    
-    
-                    <!-- SIDEBAR -->
-                    <div class="col-md-3">
-                        <h3>Your Avatar</h3>
-                        <img src="img/avatar.png" alt="" class="d-block img-fluid mb-3">
-                        <button class="btn btn-success btn-block">Edit Image</button>
-                        <button class="btn btn-danger btn-block">Delete Image</button>
-                    </div>
-                       
                 </div>
-            </div>
-        </section>
-
-    
-
+            </div>            
+        </div>
+    </section>
 
 
- <!-- FOOTER -->
+
+     <!-- FOOTER -->
  <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
     <div class="container">
       <div class="row">
@@ -169,21 +164,25 @@
     </div>
   </footer>
 
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
-
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
-    CKEDITOR.replace('editor1');
-  </script>
-</body>
-
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
 </html>
